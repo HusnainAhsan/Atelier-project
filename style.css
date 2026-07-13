@@ -4,15 +4,15 @@
 }
 
 h2 {
-    font-family:DM Sans, system-ui, sans-serif;
+    font-family: DM Sans, system-ui, sans-serif;
 }
 
 .nav-bar {
     width: 100%;
-    background-color:white;
+    background-color: white;
     /**border: 2px solid black;**/
     height: 80px;
-    display:flex;
+    display: flex;
     align-items: center;
     position: fixed;
     top: 0px;
@@ -20,10 +20,10 @@ h2 {
 }
 
 .nav-logo {
-   height: 40px;
-   width: 200px;
-   background-image: url(logo.svg);
-   margin-left: 50px;
+    height: 40px;
+    width: 200px;
+    background-image: url(logo.svg);
+    margin-left: 50px;
 }
 
 .nav-icons {
@@ -54,7 +54,7 @@ h2 {
     height: 40px;
     width: 160px;
     display: flex;
-     align-items: center;
+    align-items: center;
     justify-content: center;
     background-color: #a8782a;
     margin-left: 10px;
@@ -64,6 +64,7 @@ h2 {
     font-family: sans-serif;
     font-weight: 700px;
 }
+
 .main-menu {
     background-image: url(photo1.jpg.jfif);
     width: 100%;
@@ -74,19 +75,20 @@ h2 {
 }
 
 .hero-text {
-width: 850px;
-margin-left: 20px;
-flex-wrap: wrap;
-height: 230px;
-color:white;
-font-size: 40px;
-margin-right: 480px;
-font-weight: 700;
-text-shadow: #4b5563;
-text-align: left;
-margin-bottom: 300px;
-margin-left: 80px;
+    width: 850px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    height: 230px;
+    color: white;
+    font-size: 40px;
+    margin-right: 480px;
+    font-weight: 700;
+    text-shadow: #4b5563;
+    text-align: left;
+    margin-bottom: 300px;
+    margin-left: 80px;
 }
+
 h1 {
     margin-top: 0px;
     gap: 60px;
@@ -99,7 +101,7 @@ h2 {
     margin-top: 25px;
     font-size: 25px;
     color: lightgrey;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .bt-main {
@@ -116,6 +118,7 @@ h2 {
     width: 500px;
     margin-top: 10px;
 }
+
 .btt1 {
     width: 140px;
     height: 40px;
@@ -125,33 +128,37 @@ h2 {
     border-radius: 50px;
     font-weight: 700;
 }
+
 .btt2 {
     width: 140px;
     height: 40px;
-    background-color:rgba(128, 128, 128 ,0.4);
-     color: white;
-     border: 1px solid transparent;
-     border-radius: 50px;
-     font-weight: 700;
+    background-color: rgba(128, 128, 128, 0.4);
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    font-weight: 700;
 }
+
 .btt3 {
     width: 140px;
     height: 40px;
-     background-color:rgba(128, 128, 128 ,0.4);
-     color: white;
-     border: 1px solid transparent;
-     border-radius: 50px;
-     font-weight: 700;
+    background-color: rgba(128, 128, 128, 0.4);
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    font-weight: 700;
 }
+
 .btt4 {
     width: 140px;
     height: 40px;
-    background-color:rgba(128, 128, 128 ,0.4);
-     color: white;
-     border: 1px solid transparent;
-     border-radius: 50px;
-     font-weight: 700;
+    background-color: rgba(128, 128, 128, 0.4);
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    font-weight: 700;
 }
+
 .btt5 {
     width: 180px;
     height: 50px;
@@ -164,13 +171,13 @@ h2 {
 }
 
 .btt6 {
-     width: 180px;
+    width: 180px;
     height: 50px;
     font-size: 15px;
     border: 2px solid transparent;
     border-radius: 50px;
     font-weight: bold;
-    background-color:rgba(128, 128, 128 ,0.4);
+    background-color: rgba(128, 128, 128, 0.4);
     color: white;
     margin-left: 20px;
 }
@@ -214,36 +221,41 @@ h2 {
     height: 205px;
     color: black;
     display: flex;
-    font-size:45px;
+    font-size: 45px;
     align-items: center;
     justify-content: space-evenly;
     font-weight: 550;
     font-family: Playfair Display, Georgia, Times New Roman, serif;
 }
+
 .box-txt1 {
     font-size: small;
     text-transform: uppercase;
     color: #6b7280;
-     font-family: sans-serif;
+    font-family: sans-serif;
 }
+
 .box-txt2 {
     font-size: small;
     text-transform: uppercase;
     color: #6b7280;
-     font-family: sans-serif;
+    font-family: sans-serif;
 }
+
 .box-txt3 {
     font-size: small;
     text-transform: uppercase;
     color: #6b7280;
-     font-family: sans-serif;
-}    
+    font-family: sans-serif;
+}
+
 .box-txt4 {
-    font-size: small;    
+    font-size: small;
     text-transform: uppercase;
     color: #6b7280;
     font-family: sans-serif;
 }
+
 .num1 {
     display: flex;
     justify-content: center;
@@ -253,19 +265,23 @@ h2 {
     display: flex;
     justify-content: center;
 }
+
 .num3 {
     display: flex;
     justify-content: center;
 }
+
 .num4 {
     display: flex;
     justify-content: center;
 }
+
 .ending-line {
     width: 100%;
     height: 1px;
-    background-color: rgba(107, 114, 128 ,0.4);
+    background-color: rgba(107, 114, 128, 0.4);
 }
+
 .butt {
     height: 75px;
     width: 100%;
@@ -274,27 +290,30 @@ h2 {
     flex-direction: column;
     margin-top: 120px;
 }
+
 .my-butt {
     height: 50px;
     width: 130px;
     padding: 10px;
     border: 2px solid transparent;
     border-radius: 50px;
-    background-color: rgba(168, 120, 42 ,0.4);
+    background-color: rgba(168, 120, 42, 0.4);
     color: #8c6124;
     font-family: sans-serif;
     font-size: 15px;
 }
+
 .my-txt {
     width: 700px;
     display: flex;
     justify-content: center;
     font-size: 3rem;
     margin-top: 10px;
-    font-family:  Playfair Display, Georgia, Times New Roman, serif;
+    font-family: Playfair Display, Georgia, Times New Roman, serif;
 }
+
 .my-txt2 {
-    width:750px;
+    width: 750px;
     margin-top: 13px;
     height: 55px;
     display: flex;
@@ -304,26 +323,68 @@ h2 {
     font-family: DM Sans, system-ui, sans-serif;
     color: #4b5563;
 }
-    
+
 .pin-bar {
-    width:350px;
-    height:300px;
-    border:2px solid grey;
-    border-radius:20px;
-    margin-top:170px;
-    display:flex;
+    width: 350px;
+    height: 350px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    margin-top: 170px;
+    display: flex;
 }
+.pin-bar2 {
+    width: 350px;
+    height: 350px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+
 .logo-icon {
     font-size: 40px;
-    color:#a8782a;
-    background-color: rgba(140, 97, 36 ,0.2);
-    /**border:2px solid transparent;**/
-    border-radius:10px;
-    height:60px;
-    width:60px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin-top:40px;
-    margin-left:30px;
+    color: #a8782a;
+    background-color: rgba(140, 97, 36, 0.2);
+    border: 2px solid transparent;
+    border-radius: 10px;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.head {
+    font-size: 23px;
+    margin-top: 25px;
+    height: 40px;
+    width:300px;
+    margin-left: 30px;
+    display: flex;
+}
+
+.pin-bar:hover {
+    border: 2px solid #a8782a;
+}
+
+.logo-icon:hover {
+    background-color: #8c6124;
+    color: white;
+}
+
+.container-two {
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.con-text {
+    padding: 15px; 
+    font-size: medium;
+    font-family: DM Sans, system-ui, sans-serif;
+    color: #6b7280; 
+}
+.anchor {
+    padding:15px;
 }
