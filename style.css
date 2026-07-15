@@ -332,6 +332,7 @@ h2 {
     margin-top: 170px;
     display: flex;
 }
+
 .pin-bar2 {
     width: 350px;
     height: 350px;
@@ -360,7 +361,7 @@ h2 {
     font-size: 23px;
     margin-top: 25px;
     height: 40px;
-    width:300px;
+    width: 300px;
     margin-left: 30px;
     display: flex;
 }
@@ -377,24 +378,28 @@ h2 {
 .container-two {
     display: flex;
     justify-content: space-evenly;
-   
+
 }
+
 .con-text {
-    padding: 15px; 
+    padding: 15px;
     font-size: medium;
     font-family: DM Sans, system-ui, sans-serif;
-    color: #6b7280; 
+    color: #6b7280;
 }
+
 .anchor {
-    padding:15px;
+    padding: 15px;
 }
+
 .container3 {
-    width:100%;
+    width: 100%;
     display: flex;
     height: 500px;
     flex-direction: column;
     align-items: center;
 }
+
 .anchor2 {
     height: 30px;
     width: 100px;
@@ -404,6 +409,7 @@ h2 {
     color: #8c6124;
     border-radius: 50px;
 }
+
 .head3 {
     width: 400px;
     height: 80px;
@@ -413,79 +419,155 @@ h2 {
     align-items: center;
     text-align: center;
 }
+
 .pit {
-    width:650px;    
+    width: 650px;
     text-align: center;
     font-size: 20px;
-    font-family:  DM Sans, system-ui, sans-serif;
+    font-family: DM Sans, system-ui, sans-serif;
     color: #4b5563;
 }
+
 .images {
     display: flex;
-     gap: 20px;
-     margin-left: 60px; 
-    
+    gap: 20px;
+    margin-left: 60px;
+
 }
+
 .fav {
- width:395px;
- height:295px;
- background-image:url(photo-1600607687939-ce8a6c25118c.jfif);
- background-size:cover;
- border: 0.5px solid transparent;
-  border-radius: 20px;
-}
-.fav2 {
- width:395px;
- height:295px;
- background-image: url(photo-1497366811353-6870744d04b2.jfif);
- background-size: cover;
- border: 0.5px solid transparent;
-  border-radius: 20px;
-}
-.fav3 {
-    width:395px;
-    height: 610px;
-    background-image:url(photo-3.jfif);
+    width: 395px;
+    height: 295px;
+    background-image: url(photo-1600607687939-ce8a6c25118c.jfif);
     background-size: cover;
     border: 0.5px solid transparent;
     border-radius: 20px;
 }
+
+.fav2 {
+    width: 395px;
+    height: 295px;
+    background-image: url(photo-1497366811353-6870744d04b2.jfif);
+    background-size: cover;
+    border: 0.5px solid transparent;
+    border-radius: 20px;
+}
+
+.fav3 {
+    width: 395px;
+    height: 610px;
+    background-image: url(photo-3.jfif);
+    background-size: cover;
+    border: 0.5px solid transparent;
+    border-radius: 20px;
+}
+
 .images2 {
     display: flex;
     gap: 20px;
     margin-left: 60px;
-    margin-top:-300px;
+    margin-top: -300px;
     position: relative;
     overflow: hidden;
     cursor: pointer;
 }
 
 .fav4 {
- width:395px;
- height:295px;
- background-color: white;
- background-size: cover;
- border: 0.5px solid transparent;
-  border-radius: 20px;
-}
-.fav5 {
-    width:395px;
-    height: 610px;
-    background-image:url(image.4.jpg);
+    width: 395px;
+    height: 295px;
+    background-color: white;
     background-size: cover;
     border: 0.5px solid transparent;
     border-radius: 20px;
 }
-.images3 {
-     gap: 20px;
-    margin-left: 60px;
-    margin-top:-300px;
+
+.fav5 {
+    width: 395px;
+    height: 610px;
+    background-image: url(image.4.jpg);
+    background-size: cover;
+    border: 0.5px solid transparent;
+    border-radius: 20px;
 }
+
+.images3 {
+    margin-left: 60px;
+    margin-top: -300px;
+    position: relative;
+    z-index: 2;
+}
+
 .fav6 {
-     width:395px;
- height:295px;
- background-image:url(box5.jpg);
- background-size: cover;
- border: 0.5px solid transparent;
-  border-radius: 20px;
+    width: 395px;
+    height: 295px;
+    background: url(box5.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    transition: transform 0.5s;
+}
+
+.fav6:hover {
+    transform: scale(1.2);
+
+}
+
+.fav6:hover>.txt-me5 {
+    display: block;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.txt-me5 {
+    position: relative;
+    top: 250px;
+    font-size: x-large;
+    color: white;
+    left: 20px;
+    display: none;
+}
+
+.fav4 {
+    width: 395px;
+    height: 295px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: transform 0.5s;
+    background-image: url(box6.jfif);
+}
+
+.fav4:hover {
+    transform: scale(1.2);
+
+}
+
+.fav4:hover>.txt-me3 {
+    display: block;
+    color: white;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.txt-me3 {
+    position: relative;
+    top: 250px;
+    font-size: x-large;
+    color: white;
+    left: 20px;
+    display: none;
 }
