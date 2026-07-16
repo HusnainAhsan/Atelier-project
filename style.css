@@ -432,6 +432,7 @@ h2 {
     display: flex;
     gap: 20px;
     margin-left: 60px;
+    position: relative;
 
 }
 
@@ -442,6 +443,7 @@ h2 {
     background-size: cover;
     border: 0.5px solid transparent;
     border-radius: 20px;
+    transition: transform 0.5s;
 }
 
 .fav2 {
@@ -451,6 +453,7 @@ h2 {
     background-size: cover;
     border: 0.5px solid transparent;
     border-radius: 20px;
+    transition: transform 0.5s;
 }
 
 .fav3 {
@@ -460,6 +463,7 @@ h2 {
     background-size: cover;
     border: 0.5px solid transparent;
     border-radius: 20px;
+    transition: transform 0.5s;
 }
 
 .images2 {
@@ -476,9 +480,11 @@ h2 {
     width: 395px;
     height: 295px;
     background-color: white;
+    background-image:url(box6.jfif);
     background-size: cover;
     border: 0.5px solid transparent;
     border-radius: 20px;
+    transition: transform 0.5s;
 }
 
 .fav5 {
@@ -488,6 +494,7 @@ h2 {
     background-size: cover;
     border: 0.5px solid transparent;
     border-radius: 20px;
+    transition: transform 0.5s;
 }
 
 .images3 {
@@ -533,14 +540,32 @@ h2 {
     left: 20px;
     display: none;
 }
+.fav5:hover {
+    transform: scale(1.2);
 
-.fav4 {
-    width: 395px;
-    height: 295px;
-    background-size: cover;
-    border-radius: 20px;
-    transition: transform 0.5s;
-    background-image: url(box6.jfif);
+}
+
+.fav5:hover>.txt-me4 {
+    display: block;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.txt-me4 {
+    position: relative;
+    top: 500px;
+    font-size: x-large;
+    color: white;
+    left: 20px;
+    display: none;
 }
 
 .fav4:hover {
@@ -550,7 +575,6 @@ h2 {
 
 .fav4:hover>.txt-me3 {
     display: block;
-    color: white;
 }
 
 @keyframes zoomIn {
@@ -568,6 +592,87 @@ h2 {
     top: 250px;
     font-size: x-large;
     color: white;
-    left: 20px;
+    left: 40px;
+    display: none;
+}
+.fav:hover {
+    transform: scale(1.2);
+
+}
+
+.fav:hover>.txt-me {
+    display: block;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.txt-me {
+    position: relative;
+    top: 250px;
+    font-size: x-large;
+    color: white;
+    left: 40px;
+    display: none;
+}
+.fav2:hover {
+    transform: scale(1.2);
+
+}
+
+.fav2:hover>.txt-me1 {
+    display: block;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.txt-me1 {
+    position: relative;
+    top: 250px;
+    font-size: x-large;
+    color: white;
+    left: 40px;
+    display: none;
+}
+.fav3:hover {
+    transform: scale(1.2);
+
+}
+
+.fav3:hover>.txt-me2 {
+    display: block;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.txt-me2 {
+    position: relative;
+    top: 530px;
+    font-size: x-large;
+    color: white;
+    left: 40px;
     display: none;
 }
