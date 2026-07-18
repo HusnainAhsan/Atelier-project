@@ -769,7 +769,7 @@ h2 {
     align-items: center;
     color: white;
     font-size: 40px;
-    font-family: Playfair Display, Georgia, Times New Roman, serif;;
+    font-family: Playfair Display, Georgia, Times New Roman, serif;
 }
 .left2 {
     display: flex;
@@ -816,4 +816,39 @@ h2 {
     display: block;
     margin-top: 100px;
     margin-left: 50px;
+}
+.point-butt {
+    height: 30px;
+    width: 100px;
+    background-color:rgba(168, 120, 42, 0.4);
+    border: 1px solid transparent;
+    border-radius: 30px;
+    color: #8c6124;
+    text-align: center;
+    
+        
+}
+.point {
+    height: 500px;
+    display: block;
+    text-align: center;
+    padding-top: 200px;
+}
+.point-head {
+font-size: 30px;
+}
+.point-para {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     margin-top: 10px;
+     font-size: 20px;
+     font-family: DM Sans, system-ui, sans-serif;
+     color: #6b7280;   
+}
+.dabba {
+width: 350px;
+height: 100px;
+border: 2px solid black;
+font-size: 40px;
 }
