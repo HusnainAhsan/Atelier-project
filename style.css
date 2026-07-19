@@ -847,8 +847,35 @@ font-size: 30px;
      color: #6b7280;   
 }
 .dabba {
-width: 350px;
-height: 100px;
+width: 340px;
+height: 90px;
 border: 2px solid black;
 font-size: 40px;
+display: flex;
+flex-direction: column;
+padding: 30px;
+}
+.dabba-text {
+    font-size: large;
+    margin-top: 5px;
+    font-weight: lighter;
+}
+.dabba i {
+    height: 50px;
+    background-color:rgba(168, 120, 42, 0.4);
+    border: 2px solid transparent;
+    border-radius: 10px;
+    color: #a8782a;
+    margin-right: 20px;
+}
+.dabba-little {
+    font-size: medium;
+}
+
+.dab-1 {
+    display: flex;
+}
+.dabba-little {
+    margin-left:75px;
+    margin-top: -20px;
 }
