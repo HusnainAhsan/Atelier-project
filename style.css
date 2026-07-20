@@ -846,6 +846,10 @@ font-size: 30px;
      font-family: DM Sans, system-ui, sans-serif;
      color: #6b7280;   
 }
+.charger {
+    display: flex;
+    justify-content: space-evenly;
+}
 .dabba {
 width: 340px;
 height: 90px;
@@ -854,6 +858,8 @@ font-size: 40px;
 display: flex;
 flex-direction: column;
 padding: 30px;
+border: 1px solid rgba(128, 128, 128,0.4);
+border-radius: 20px;
 }
 .dabba-text {
     font-size: large;
@@ -878,4 +884,36 @@ padding: 30px;
 .dabba-little {
     margin-left:75px;
     margin-top: -20px;
+    color: #6b7280;
+}
+.little {
+    font-size: small;
+    margin-left: 77px;
+    border:  2px solid transparent;
+    width: 40px;
+    justify-content:center;
+    display: flex;
+    align-items: center;
+    background-color: gainsboro;
+    border-radius: 10px;
+    color: #6b7280;
+    margin-top: 20px;
+}
+.charger2 {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+.question {
+    display: flex;
+    justify-content: center;
+}
+.question-btn button {
+    width: 60px;
+    height: 20px;
+    border: 2px solid transparent;
+    background-color:rgba(168, 120, 42, 0.4);
+    border-radius: 10px;
+    color: #8c6124;
+    margin-top: 100px;
 }
