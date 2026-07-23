@@ -480,7 +480,7 @@ h2 {
     width: 395px;
     height: 295px;
     background-color: white;
-    background-image:url(box6.jfif);
+    background-image: url(box6.jfif);
     background-size: cover;
     border: 0.5px solid transparent;
     border-radius: 20px;
@@ -540,6 +540,7 @@ h2 {
     left: 20px;
     display: none;
 }
+
 .fav5:hover {
     transform: scale(1.2);
 
@@ -595,6 +596,7 @@ h2 {
     left: 40px;
     display: none;
 }
+
 .fav:hover {
     transform: scale(1.2);
 
@@ -622,6 +624,7 @@ h2 {
     left: 40px;
     display: none;
 }
+
 .fav2:hover {
     transform: scale(1.2);
 
@@ -649,6 +652,7 @@ h2 {
     left: 40px;
     display: none;
 }
+
 .fav3:hover {
     transform: scale(1.2);
 
@@ -676,6 +680,7 @@ h2 {
     left: 40px;
     display: none;
 }
+
 .lorem {
     margin: 200px;
     width: 180px;
@@ -689,11 +694,13 @@ h2 {
     border-radius: 50px;
     font-size: 15px;
 }
+
 .chit {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .anchor4 {
     height: 30px;
     width: 100px;
@@ -703,18 +710,21 @@ h2 {
     color: #8c6124;
     border-radius: 50px;
 }
+
 .chit2 {
     display: flex;
     justify-content: center;
     margin-top: -150px;
     margin-right: 15px;
 }
+
 .head4 {
     font-size: 55px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .pit2 {
     display: flex;
     justify-content: center;
@@ -725,6 +735,7 @@ h2 {
     color: #4b5563;
     margin-left: 360px;
 }
+
 .number1 {
     height: 60px;
     width: 60px;
@@ -739,6 +750,7 @@ h2 {
     font-family: Playfair Display, Georgia, Times New Roman, serif;
     border: 40px black;
 }
+
 .left {
     display: flex;
     justify-content: center;
@@ -747,17 +759,20 @@ h2 {
     margin-top: 100px;
     margin-left: 250px;
 }
+
 .para {
     width: 400px;
     height: 115px;
     font-size: large;
-    font-family:DM Sans, system-ui, sans-serif;
+    font-family: DM Sans, system-ui, sans-serif;
     color: #6b7280;
 }
+
 .number1 {
     margin-bottom: 50px;
     margin-left: 150px;
 }
+
 .number2 {
     height: 60px;
     width: 60px;
@@ -771,6 +786,7 @@ h2 {
     font-size: 40px;
     font-family: Playfair Display, Georgia, Times New Roman, serif;
 }
+
 .left2 {
     display: flex;
     justify-content: center;
@@ -779,23 +795,27 @@ h2 {
     margin-top: 100px;
     margin-left: 250px;
 }
+
 .para2 {
     width: 400px;
     height: 115px;
     font-size: large;
-    font-family:DM Sans, system-ui, sans-serif;
+    font-family: DM Sans, system-ui, sans-serif;
     color: #6b7280;
 }
+
 .number2 {
     margin-bottom: 50px;
     margin-left: 150px;
 }
+
 .main-container {
     width: 100%;
     height: 700px;
     border-right: 2px #4b5563;
     display: flex;
 }
+
 .mobile {
     border-right: 1px solid #6b7280;
     width: 50%;
@@ -809,6 +829,7 @@ h2 {
     margin-top: 100px;
     margin-left: 50px;
 }
+
 .left4 {
     display: flex;
     justify-content: center;
@@ -817,63 +838,72 @@ h2 {
     margin-top: 100px;
     margin-left: 50px;
 }
+
 .point-butt {
     height: 30px;
     width: 100px;
-    background-color:rgba(168, 120, 42, 0.4);
+    background-color: rgba(168, 120, 42, 0.4);
     border: 1px solid transparent;
     border-radius: 30px;
     color: #8c6124;
     text-align: center;
-    
-        
+
+
 }
+
 .point {
     height: 500px;
     display: block;
     text-align: center;
     padding-top: 200px;
 }
+
 .point-head {
-font-size: 30px;
+    font-size: 30px;
 }
+
 .point-para {
     display: flex;
     align-items: center;
     justify-content: center;
-     margin-top: 10px;
-     font-size: 20px;
-     font-family: DM Sans, system-ui, sans-serif;
-     color: #6b7280;   
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: DM Sans, system-ui, sans-serif;
+    color: #6b7280;
 }
+
 .charger {
     display: flex;
     justify-content: space-evenly;
 }
+
 .dabba {
-width: 340px;
-height: 90px;
-border: 2px solid black;
-font-size: 40px;
-display: flex;
-flex-direction: column;
-padding: 30px;
-border: 1px solid rgba(128, 128, 128,0.4);
-border-radius: 20px;
+    width: 340px;
+    height: 90px;
+    border: 2px solid black;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    border-radius: 20px;
 }
+
 .dabba-text {
     font-size: large;
     margin-top: 5px;
     font-weight: lighter;
 }
+
 .dabba i {
     height: 50px;
-    background-color:rgba(168, 120, 42, 0.4);
+    background-color: rgba(168, 120, 42, 0.4);
     border: 2px solid transparent;
     border-radius: 10px;
     color: #a8782a;
     margin-right: 20px;
 }
+
 .dabba-little {
     font-size: medium;
 }
@@ -881,17 +911,19 @@ border-radius: 20px;
 .dab-1 {
     display: flex;
 }
+
 .dabba-little {
-    margin-left:75px;
+    margin-left: 75px;
     margin-top: -20px;
     color: #6b7280;
 }
+
 .little {
     font-size: small;
     margin-left: 77px;
-    border:  2px solid transparent;
+    border: 2px solid transparent;
     width: 40px;
-    justify-content:center;
+    justify-content: center;
     display: flex;
     align-items: center;
     background-color: gainsboro;
@@ -899,21 +931,76 @@ border-radius: 20px;
     color: #6b7280;
     margin-top: 20px;
 }
+
 .charger2 {
     display: flex;
     margin-top: 50px;
     justify-content: space-evenly;
 }
+
 .question {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+
 .question-btn button {
     width: 60px;
-    height: 20px;
+    height: 30px;
     border: 2px solid transparent;
-    background-color:rgba(168, 120, 42, 0.4);
-    border-radius: 10px;
+    background-color: rgba(168, 120, 42, 0.4);
+    border-radius: 20px;
     color: #8c6124;
     margin-top: 100px;
+    font-size: large;
+}
+
+.question-head {
+    font-size: x-large;
+
+}
+
+.text-question {
+    font-family: DM Sans, system-ui, sans-serif;
+    color: #6b7280;
+    font-size: larger;
+}
+.main-laptop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.laptop {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    width: 750px;
+    text-align: center;
+}
+.laptop-border {
+border: 1px solid rgba(128, 128, 128 ,0.4);
+width: 700px;
+height: 30px;
+display: flex;
+align-items: center;
+padding:20px;
+border-radius: 20px;
+justify-content: space-between;
+margin-top: 30px;
+}
+.laptop-text {
+    font-size: larger;
+    display: inline;
+}
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(107, 114, 128 ,0.4);
+    color: #6b7280;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-left: 200px;
+    font-size: 20px;
 }
