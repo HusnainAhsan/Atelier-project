@@ -1004,3 +1004,29 @@ margin-top: 30px;
     margin-left: 200px;
     font-size: 20px;
 }
+.best-bulb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bulb {
+width: 1200px;
+height: 450px;
+background-color: rgba(0, 0, 0 ,0.9);
+display: block;
+border: 2px solid transparent;
+border-radius: 30px;
+color: white;
+}
+.main-bulb {
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.bulb-head {
+    width: 750px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -10px;
+    display: block;
+}
